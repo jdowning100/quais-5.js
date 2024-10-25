@@ -1,6 +1,6 @@
 {
   "name": "quais",
-  "version": "1.0.0",
+  "version": "5.0.0",
   "main": "./packages/quais/lib/quais.js",
   "common": {
     "funding": [
@@ -71,7 +71,6 @@
     "diff": "4.0.1",
     "dotenv": "^16.0.1",
     "flatworm": "0.0.2-beta.7",
-    "hardhat": "github:dominant-strategies/quai-hardhat",
     "jison": "0.4.18",
     "karma": "^6.4.1",
     "karma-chrome-launcher": "3.1.1",

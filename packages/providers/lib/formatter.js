@@ -237,7 +237,7 @@ var Formatter = /** @class */ (function () {
                 value: this.bigNumber(etx.value),
                 data: this.data(etx.input),
                 to: this.address(etx.to),
-                accessList: Formatter.allowNull(this.accessList, null)(etx.accessList), // Add more detailed parsing if needed
+                accessList: Formatter.allowNull(this.accessList, null)(etx.accessList),
                 chainId: Number(etx.chainId),
                 from: this.address(etx.sender),
                 hash: this.hash(etx.hash)
